@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <com.git.controlledmarquee.MarqueeTextView
+       android:id="@+id/marquee_tv"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="走马灯测试.测试走马灯"
+       android:textSize="16sp"
+       android:textColor="#000"
+       android:background="#F00"
+       />
+
+</LinearLayout>
